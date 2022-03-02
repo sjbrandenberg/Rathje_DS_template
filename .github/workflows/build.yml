@@ -3,7 +3,7 @@ name: ci
 on:
   push:
     branches:
-      - 'master'
+      - '*'
 
 jobs:
   docker:
@@ -24,3 +24,14 @@ jobs:
         with:
           push: true
           tags: designsafeci/ds-use-case-template:latest
+      - name: Send custom JSON data to Slack workflow
+        id: slack
+        uses: slackapi/slack-github-action@v1.18.0
+        with:
+          # This data can be any valid JSON from a previous step in the GitHub Action
+          payload: |
+            {
+              "build_status": "${{ job.status }}",
+            }
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
