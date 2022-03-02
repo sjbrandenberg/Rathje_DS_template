@@ -23,4 +23,4 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: wmatacc/ds-use-case-template:latest
+          tags: designsafeci/ds-use-case-template:latest
