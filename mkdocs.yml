@@ -24,13 +24,13 @@ markdown_extensions:
 
 nav:
   - Use Cases Products: index.md
-  - Taggit: haan/usecase.md
+  - Taggit - Image Tagging: haan/usecase.md
   - ML and AI: vantassel_and_zhang/usecase.md
   - NGL Database: brandenberg/usecase.md
   - MPM Landslide: kumar/usecase.md
   - Large-Scale Storm Surge: dawson/usecase.md
-  - Visualizing Storm Surge: padgett/usecase.md
-  - Wind Flow: kareem/usecase.md
+  - Visualizing Surge for Regional Risks: padgett/usecase.md
+  - CFD Analysis of Winds on Structures: kareem/usecase.md
   - Field Sensing Wind Events: pinelli/usecase.md
   - OpenSees Model Calibration: arduino/usecase.md
   - Seismic Response of Concrete Walls: lowes/usecase.md
