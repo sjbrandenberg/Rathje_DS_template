@@ -21,22 +21,22 @@ Key Words: API, Application Programming Interface, Jupyter, Python, requests, US
  </tr>
  <tr>
   <td>US Census map</td>
-  <td>folium, geopandas, requests, json, numpy, getpass</td>
+  <td>folium, geopandas, requests, json, getpass</td>
   <td><a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/us_census_api.ipynb"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a></td>
  </tr>
  <tr>
   <td>USGS map of recent earthquakes</td>
-  <td>folium, geopandas, requests, json, numpy</td>
+  <td>folium, geopandas, requests, json</td>
   <td><a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/usgs_recent_earthquakes_api.ipynb"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a></td>
  </tr>
  <tr>
   <td>USGS Shakemap contours</td>
-  <td>folium, geopandas, requests, json, numpy, pandas</td>
+  <td>folium, geopandas, requests, json, pandas</td>
   <td><a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/usgs_shakemap_api.ipynb"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a></td>
  </tr>
  <tr>
   <td>NOAA hourly wind data</td>
-  <td>folium, matplotlib, requests, json, numpy</td>
+  <td>folium, matplotlib, requests, json</td>
   <td><a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/noaa_api.ipynb"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a></td>
  </tr>
 </table>
