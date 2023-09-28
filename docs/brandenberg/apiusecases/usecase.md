@@ -122,7 +122,7 @@ img.show()
 print('Explanation: ' + explanation + '\n')
 ```
 
-HTTP Status Code: <Response [200]>
+HTTP Status Code: Response [200]
 
 Title: IC 4592: The Blue Horsehead Reflection Nebula
 Copyright: 
