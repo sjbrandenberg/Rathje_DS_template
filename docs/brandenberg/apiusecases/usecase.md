@@ -1,8 +1,8 @@
 # Application Programming Interfaces (API's)
 
-Using Jupyter and the Python "requests" package to access data through application programming interfaces
+__Scott J. Brandenberg and Meera Kota, UCLA__
 
-Scott J. Brandenberg and Meera Kota, UCLA
+This use case provides some background information on application programming interfaces (API's) followed by examples that utilize the Python requests package to pull data from API's maintained by NASA, the US Census Bureau, the US Geological Survey, and the National Oceanic and Atmospheric Administration. 
 
 Key Words: API, Application Programming Interface, Jupyter, Python, requests, US Census, USGS, NASA, NOAA
 
