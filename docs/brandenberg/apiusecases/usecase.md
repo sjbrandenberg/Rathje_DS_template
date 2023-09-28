@@ -137,7 +137,7 @@ url: https://apod.nasa.gov/apod/image/2309/BlueHorse_Grelin_1080.jpg
 
 ### US Census Map
 
-<a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/us_census_api.ipynb"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg">
+<a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/us_census_api.ipynb"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a>
 
 This use case demonstrates how to pull data from a US Census API request and plot it using Folium. The Jupyter notebook is more heavily annotated and divided into cells. This page presents an abridged version highlighting key details. Details about the US Census API can be found at https://www.census.gov/data/developers/guidance/api-user-guide.html. This use case focuses on the American Community Survey (ACS) https://www.census.gov/programs-surveys/acs, which is a survey conducted by the US Census which details housing and population counts for the nation. A US Census API Key is required to use this use case product. So go over to https://api.census.gov/data/key_signup.html and get your API key now! We'll be here when you get back.
 
