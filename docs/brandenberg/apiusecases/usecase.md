@@ -135,7 +135,7 @@ url: https://apod.nasa.gov/apod/image/2309/BlueHorse_Grelin_1080.jpg
 
 ![Photo of the Blue Horsehead Reflection Nebula](img/BlueHorse_Grelin_1080.jpg)
 
-## US Census Map
+### US Census Map
 
 <a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/us_census_api.ipynb"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg">
 
@@ -210,7 +210,7 @@ display(pop_map)
 ```
 ![Map of the United States showing percent of African American/Black Population from the 2020 Census](img/us_census_api.png)
 
-## USGS recent earthquake map
+### USGS recent earthquake map
 
 <a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/usgs_recent_earthquakes_api.ipynb"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a>
 
@@ -257,7 +257,7 @@ my_map
 ```
 ![map of recent earthquakes in the United States](img/usgs_recent_earthquakes.png)
 
-## USGS Shakemap contours
+### USGS Shakemap contours
 
 <a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/usgs_shakemap_api.ipynb"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a>
 
@@ -305,7 +305,7 @@ m
 ```
 ![Plot of USGS Shakemap contours showing peak ground acceleration for an earthquake in southern California](img/usgs_shakemap_api.png)
 
-## NOAA hourly wind data
+### NOAA hourly wind data
 
 <a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/Use%20Case%20Products/APIs/noaa_api.ipynb"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a>
 
