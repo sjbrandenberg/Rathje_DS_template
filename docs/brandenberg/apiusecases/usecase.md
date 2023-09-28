@@ -69,6 +69,8 @@ More about HTTP status codes: https://en.wikipedia.org/wiki/List_of_HTTP_status_
 
 ## Implementation
 
+The use cases below provide a description of each API followed by code required to run the API, and output produced at the time the documentation was written. The code provided in the documentation has been shortened; a more fully-documented version of the code exists in the Jupyter notebooks, where code is often distributed among multiple cells with annotations prior to each cell. The output presented in the documentation may differ from the output obtained by running one of the notebooks. This is because the notebooks pull live data from an API, and will therefore be different from the data that was pulled at the time the documentation was created.
+
 ### NASA Astronomy Picture of the Day
 
 NASA maintains a number of open API's to make NASA data, including imagery, available to the public. Here we focus on the Astronomy Picture of the Day, or APOD. Many of NASA's API's require an API key, which can be obtained by signing up through their form at https://api.nasa.gov/. We have elected to use APOD because a demo key can be used to retrieve photos. Therefore this example will work for users who do not have a NASA API token. Below is an example query.
@@ -129,7 +131,7 @@ Antoine & Dalia Grelin
 
 url: https://apod.nasa.gov/apod/image/2309/BlueHorse_Grelin_1080.jpg
 
-![Photo of the Blue Horsehead Reflection Nebula](BlueHorse_Grelin_1080.jpg)
+![Photo of the Blue Horsehead Reflection Nebula](img/BlueHorse_Grelin_1080.jpg)
 
 ## US Census Map
 
@@ -202,7 +204,7 @@ cp.add_to(pop_map)
 
 display(pop_map)
 ```
-![Map of the United States showing percent of African American/Black Population from the 2020 Census](us_census_api.png)
+![Map of the United States showing percent of African American/Black Population from the 2020 Census](img/us_census_api.png)
 
 ## USGS recent earthquake map
 
@@ -247,7 +249,7 @@ my_map.get_root().html.add_child(folium.Element(title_html))
 
 my_map
 ```
-![map of recent earthquakes in the United States](usgs_recent_earthquakes.png)
+![map of recent earthquakes in the United States](img/usgs_recent_earthquakes.png)
 
 ## USGS Shakemap contours
 
@@ -293,7 +295,7 @@ for feature in json_data['features']:
          ).add_to(m)
 m
 ```
-![Plot of USGS Shakemap contours showing peak ground acceleration for an earthquake in southern California](usgs_shakemap_api.png)
+![Plot of USGS Shakemap contours showing peak ground acceleration for an earthquake in southern California](img/usgs_shakemap_api.png)
 
 ## NOAA hourly wind data
 
@@ -327,4 +329,9 @@ ax.set_xlabel("Date")
 ax.set_ylabel("Wind Speed (knots)")
 ax.grid(True,alpha=0.5)
 ```
-![Plot of wind speed versus time in Key West during July 2021](noaa_api.png)
+![Plot of wind speed versus time in Key West during July 2021](img/noaa_api.png)
+
+## Citations and Licensing
+
+- Please cite <a href="https://doi.org/10.1061/(ASCE)NH.1527-6996.0000246">Rathje et al. (2017)</a> to acknowledge use of DesignSafe resources.
+- This software is distributed under the [MIT License](license.md).
