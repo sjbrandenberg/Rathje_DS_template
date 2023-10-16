@@ -6,8 +6,54 @@
 
 The example makes use of the following DesignSafe resources:
 
-[Jupyter notebooks on DS Juypterhub](https://www.designsafe-ci.org/rw/workspace/#!/Jupyter::Analysis){target=_blank}<br/>
-[NGL Database](https://www.nextgenerationliquefaction.org/){target=_blank}<br/>
+<table>
+  <tr>
+    <th>Notebook</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td>
+      Example Queries
+    </td>
+    <td>
+      <a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/NGL/ExampleQueries.ipynb" target="_blank"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Cone Penetration Test Viewer
+    </td>
+    <td>
+      <a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/NGL/CPT_viewer.ipynb" target="_blank"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      V<sub>S</sub> (Invasive) Test Viewer
+    </td>
+    <td>
+      <a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/NGL/VS_Invasive_viewer.ipynb" target="_blank"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      October 2021 DesignSafe Webinar
+    </td>
+    <td>
+      <a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/NGL/DesignSafe_Webinar_Oct2021.ipynb" target="_blank"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Direct Simple Shear Viewer
+    </td>
+    <td>
+      <a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/NGL/DSS_Viewer.ipynb" target="_blank"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a>
+    </td>
+  </tr>
+</table>
+
+The NGL database can be accessed at <a href="https://www.nextgenerationliquefaction.org/" target="_blank">https://www.nextgenerationliquefaction.org/</a> (opens in new window)
 
 ## Background
 ### Citations and Licensing
@@ -81,7 +127,7 @@ This notebook contains example queries to illustrate how to extract data from th
 5. Query information about BORH table
 6. Query counts of cone penetration test data, boreholes, surface wave measurements, invasive shear wave velocity measurements, liquefaction observations, and non-liquefaction observations
 
-[ExampleQueries.ipynb](https://jupyter.designsafe-ci.org/user/name/tree/CommunityData/NGL/ExampleQueries.ipynb){target=_blank}
+<a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/NGL/ExampleQueries.ipynb" target="_blank"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a>
 
 ## Cone Penetration Test Viewer
 
@@ -96,7 +142,7 @@ The cone penetration test viewer demonstrates the following:
 
 Cone penetration test data plotted in the notebook include tip resistance, sleeve friction, and pore pressure. In some cases, sleeve friction and pore pressure are not measured, in which case the plots are empty.
 
-[CPT_viewer.ipynb](https://jupyter.designsafe-ci.org/user/name/tree/CommunityData/NGL/CPT_viewer.ipynb){target=_blank}
+<a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/NGL/CPT_viewer.ipynb" target="_blank"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a>
 
 
 ## V<sub>S</sub> (Invasive) Test Viewer
@@ -110,7 +156,7 @@ The V<sub>s</sub> (Invasive) Test Viewer demonstrates the following:
 5. Using the ipywidgets "observe" feature to call functions when users select a widget value
 6. Plotting data from the selected invasive geophysical test using matplotlib
 
-[VS_Invasive_viewer.ipynb](https://jupyter.designsafe-ci.org/user/name/tree/CommunityData/NGL/VS_Invasive_viewer.ipynb){target=_blank}
+<a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/NGL/VS_Invasive_viewer.ipynb" target="_blank"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a>
 
 
 ## October 2021 DesignSafe Webinar
@@ -125,8 +171,7 @@ The notebook demonstrates the following:
 
 Cone penetration test data plotted in the notebook include tip resistance, sleeve friction, and pore pressure. In some cases, sleeve friction and pore pressure are not measured, in which case the plots are empty.
 
-[DesignSafe_Webinar_Oct2021.ipynb](https://jupyter.designsafe-ci.org/user/name/tree/CommunityData/NGL/DesignSafe_Webinar_Oct2021.ipynb){target=_blank}
-
+<a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/NGL/DesignSafe_Webinar_Oct2021.ipynb" target="_blank"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a>
 [DesignSafe Webinar YouTube video](https://youtu.be/TNOPOU4lx5w){target=_blank}
 
 [DesignSafe Workshop YouTube video](https://youtu.be/_nKpSqa1rso){target=_blank}
@@ -143,4 +188,4 @@ The Direct Simple Shear Laboratory Test Viewer is a graphical interface that plo
 
 Direct simple shear data plotted in the notebook include shear stress, shear strain, vertical stress, and vertical strain time series in the first plot. The second plot displays shear strain and void ratio versus vertical stress and void ratio, shear stress, and vertical stress ratio versus shear strain.
 
-[DSS_Viewer.ipynb](https://jupyter.designsafe-ci.org/user/name/tree/CommunityData/NGL/DSS_Viewer.ipynb){target=_blank}
+<a href="https://jupyter.designsafe-ci.org/hub/user-redirect/notebooks/CommunityData/NGL/DSS_Viewer.ipynb" target="_blank"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a>
