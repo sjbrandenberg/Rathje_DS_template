@@ -53,7 +53,7 @@ The example makes use of the following DesignSafe resources:
   </tr>
 </table>
 
-The NGL database can be accessed at <a href="https://www.nextgenerationliquefaction.org/" target="_blank">https://www.nextgenerationliquefaction.org/</a> (opens in new window)
+The NGL database can be accessed at <a href="https://www.nextgenerationliquefaction.org/" target="_blank">https://www.nextgenerationliquefaction.org/</a>
 
 ## Background
 ### Citations and Licensing
