@@ -172,9 +172,10 @@ The notebook demonstrates the following:
 Cone penetration test data plotted in the notebook include tip resistance, sleeve friction, and pore pressure. In some cases, sleeve friction and pore pressure are not measured, in which case the plots are empty.
 
 <a href="https://jupyter.designsafe-ci.org/hub/user-redirect/lab/tree/CommunityData/NGL/DesignSafe_Webinar_Oct2021.ipynb" target="_blank"><img src="https://raw.githubusercontent.com/geoelements/LearnMPM/main/DesignSafe-Badge.svg"></a>
-[DesignSafe Webinar YouTube video](https://youtu.be/TNOPOU4lx5w){target=_blank}
 
-[DesignSafe Workshop YouTube video](https://youtu.be/_nKpSqa1rso){target=_blank}
+[DesignSafe Webinar YouTube video](https://youtu.be/TNOPOU4lx5w)
+
+[DesignSafe Workshop YouTube video](https://youtu.be/_nKpSqa1rso)
 
 ## Direct Simple Shear Laboratory Test Viewer
 
