@@ -1,4 +1,4 @@
-# Application Programming Interfaces (API's)
+# Message Passing Interface (MPI)
 
 __Scott J. Brandenberg and Zehan Liu, UCLA__
 
